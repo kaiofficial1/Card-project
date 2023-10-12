@@ -1,0 +1,45 @@
+.card-area{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card{
+    width: 200px;
+    min-height: 250px;
+    background-color: grey;
+    border: black solid 2px;
+    color: white;
+}
+.card:hover{
+    border: 2px solid blue ;
+}
+.time{
+    background-color: black;
+    color: white;
+    position: absolute;
+    padding: 4px 8px;
+
+}
+.infos{
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    justify-content: center;
+
+}
+.info{
+    flex: 1;
+    text-align: start;
+    padding: 0px;
+    background: grey;
+
+}
+.bid{
+    text-align: right;
+}
+.img{
+    height:180px;
+}
+.shoe{
+    height: 180px;
+    width: 200px;
+}

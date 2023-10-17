@@ -1,16 +1,19 @@
 .card-area{
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 .card{
     width: 200px;
     min-height: 250px;
     background-color: grey;
-    border: black solid 2px;
     color: white;
+    font-family: Arial;
+    padding: 0px;
 }
 .card:hover{
-    border: 2px solid blue ;
+    border: 2px solid white ;
 }
 .time{
     background-color: black;
@@ -38,8 +41,13 @@
 }
 .img{
     height:180px;
+    border-radius: 200000px;
 }
 .shoe{
     height: 180px;
     width: 200px;
+    border-radius: 10px;
+}
+.price{
+    font-size: 20px;
 }

@@ -51,3 +51,7 @@
 .price{
     font-size: 20px;
 }
+.bottom{
+    display: flex;
+    align-content: space-between;
+}
